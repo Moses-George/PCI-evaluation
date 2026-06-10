@@ -1,1 +1,1 @@
-# 💧 Pavement Condition Index Evaluation using Deep Learning (Python)
+#  Pavement Condition Index Evaluation using Deep Learning (Python)
