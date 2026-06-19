@@ -66,7 +66,7 @@ def plot_all(degree=3, save_path="deduct_value_curves.png"):
         ax.legend(fontsize=8)
 
     fig.suptitle(
-        "Digitized points vs. fitted polynomial models ",
+        "Digitized points vs. Fitted Polynomial models (ASTM D6433-07)",
         fontsize=11,
     )
     fig.tight_layout()

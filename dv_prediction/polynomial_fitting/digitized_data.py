@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 """
-Digitized (density %, deduct value) points for three ASTM D6433 deduct-value curves:
+Digitized (density %, deduct value) points for three ASTM D6433-07 deduct-value curves:
     - Alligator Cracking      (Fig. X3.1,  Asphalt 1)
     - Longitudinal/Transverse Cracking (Fig. X3.14, Asphalt 10)
     - Potholes                (Fig. X3.18, Asphalt 13)

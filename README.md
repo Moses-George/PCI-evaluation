@@ -50,6 +50,9 @@ Deep learning-based detection and evaluation of pavement surface damage.
 Results in Engineering, 29, 108946.
 https://doi.org/10.1016/j.rineng.2025.108946
 
+ASTM D6433-07; Standard Practice for Roads and Parking Lots Pavement Condition Index Surveys. ASTM: West Conshohocken,
+PA, USA, 2007.
+
 <!-- Karan Sharma, Barun Das, Dr. Ravi A Patel, and Dr. Kranthi Kumar Kuna. (2025). UAV-SEG-2025: Segmented Pavement Distress Dataset [Dataset]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/10883009 -->
 
 ## Dataset Citation
@@ -80,5 +83,16 @@ This project uses the **Road Potholes and Cracks Dataset** by **smark**, nd **pa
   year = { 2025 },
   month = { apr },
   note = { visited on 2026-06-17 },
+}
+```
+
+### Digitizer Tool
+```bibtex
+@misc{Rohatgi2024WebPlotDigitizer,
+  author = {Ankit Rohatgi},
+  title = {WebPlotDigitizer},
+  year = {2024},
+  version = {5.3},
+  howpublished = {\url{https://automeris.io/WebPlotDigitizer/}}
 }
 ```
