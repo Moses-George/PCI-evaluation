@@ -57,7 +57,7 @@ PA, USA, 2007.
 
 ## Dataset Citation
 
-This project uses the **Road Potholes and Cracks Dataset** by **smark**, nd **pavement distress Dataset** by **pavement distress** available on Roboflow Universe. If you use this dataset, please cite it as follows:
+This project uses the **Road Potholes and Cracks Dataset** by **smark**, nd **road damage dét Dataset** by **baka** available on Roboflow Universe. If you use this dataset, please cite it as follows:
 
 ```bibtex
 @misc{road-potholes-and-cracks-jmxtp_dataset,
@@ -72,17 +72,18 @@ This project uses the **Road Potholes and Cracks Dataset** by **smark**, nd **pa
   note         = {Accessed: 2026-06-17}
 }
 
-@misc{ pavement-distress-36ott_dataset,
-  title = { pavement distress Dataset },
+@misc{ road-damage-det_dataset,
+  title = { road damage dét Dataset },
   type = { Open Source Dataset },
-  author = { pavement distress },
-  howpublished = { \url{ https://universe.roboflow.com/pavement-distress-zesrc/pavement-distress-36ott } },
-  url = { https://universe.roboflow.com/pavement-distress-zesrc/pavement-distress-36ott },
+  author = { baka },
+  howpublished = { \url{ https://universe.roboflow.com/baka-1ravj/road-damage-det } },
+  url = { https://universe.roboflow.com/baka-1ravj/road-damage-det },
   journal = { Roboflow Universe },
   publisher = { Roboflow },
-  year = { 2025 },
-  month = { apr },
-  note = { visited on 2026-06-17 },
+  year = { 2023 },
+  month = { may },
+  note = { visited on 2026-06-20 },
+}
 }
 ```
 

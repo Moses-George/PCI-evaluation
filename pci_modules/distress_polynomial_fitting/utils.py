@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-base_path = os.path.join(os.getcwd(), "dv_prediction", "ASTM_DIGITIZED_DATA")
+base_path = os.path.join(os.getcwd(), "pci_modules", "ASTM_DIGITIZED_DATA")
 # curve_files = os.listdir(base_path)
 # print(curve_files)
 file_name = f"pothole_high.csv"

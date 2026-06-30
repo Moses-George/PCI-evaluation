@@ -13,6 +13,12 @@ Usage:
     dv = predict_deduct_value(models, "alligator", "medium", density=12.5)
 """
 
+import sys
+import os
+
+parent_folder = os.path.abspath((os.path.join(os.path.dirname(__file__), "./")))
+sys.path.append(parent_folder)
+
 import numpy as np
 from digitized_data import ALL_CURVES
 
