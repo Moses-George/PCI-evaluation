@@ -18,15 +18,18 @@ TITLES = {
     "alligator": "Alligator Cracking (Fig. X3.1)",
     "linear": "Longitudinal & Transverse Cracking (Fig. X3.14)",
     "pothole": "Potholes (Fig. X3.18)",
+    "rutting": "Rutting (Fig. X3.21)",
+    "patching": "Patching (Fig. X3.16)",
+    "edge_crack": "Edge Cracking (Fig. X3.8)"
 }
 
 
 def plot_all(degree=3, save_path="deduct_value_curves.png"):
     models = build_all_models(degree=degree, verbose=False)
 
-    fig, axes = plt.subplots(1, 3, figsize=(15, 6.5))
+    fig, axes = plt.subplots(2, 3, figsize=(14, 6.5))
 
-    for ax, (distress_type, severities) in zip(axes, ALL_CURVES.items()):
+    for ax, (distress_type, severities) in zip(axes.flat, ALL_CURVES.items()):
         for sev, points in severities.items():
             density = np.asarray(points["density"], dtype=float)
             dv = np.asarray(points["dv"], dtype=float)

@@ -205,7 +205,7 @@ if __name__ == "__main__":
     check_monotonicity(models)
 
     print("\n=== Sample predictions ===")
-    for q in [7, 6, 5, 4, 1]:
-        for tdv in [100.5, 96.7, 91, 85, 44.3]:
+    for q in [7, 6, 5, 4, 1,2]:
+        for tdv in [100.5, 96.7, 91, 85, 44.3, 20]:
             cdv = predict_cdv(models, q, float(tdv))
             print(f"  q={q}  TDV={tdv:>4}  ->  CDV={cdv:.2f}")

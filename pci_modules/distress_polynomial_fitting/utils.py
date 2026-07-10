@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-base_path = os.path.join(os.getcwd(), "pci_modules", "ASTM_DIGITIZED_DATA")
+base_path = os.path.join(os.getcwd(), "pci_modules", "ASTM_DIGITIZED_DATA", "distress")
 # curve_files = os.listdir(base_path)
 # print(curve_files)
-file_name = f"pothole_high.csv"
+file_name = f"patching_medium.csv"
 
 # print(file_path)
 file_path = os.path.join(base_path, file_name)
